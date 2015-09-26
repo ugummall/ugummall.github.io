@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Uday Gummalla</title>
+        <link>http://test.gummalla.in</link>
+        <atom:link href="http://test.gummalla.in/rss.xml" rel="self" type="application/rss+xml" />
+        <description>My name is Uday Gummalla. I'm a Software Engineer at Tribus Point and based out of Hyderabad, India. This site is like my public diary/notes. Mix of tech and life notes. You should get more info here than in my social networking sites.</description>
+        <language>en-us</language>
+        <pubDate>Sat, 26 Sep 2015 13:42:35 +0530</pubDate>
+        <lastBuildDate>Sat, 26 Sep 2015 13:42:35 +0530</lastBuildDate>
+
+        
+            <item>
+                <title>Accessing .local domain sites in Yosemite</title>
+                <link>http://test.gummalla.in/2015/07/Accessing-local-domain-in-Yosemite/</link>
+                <pubDate>Mon, 27 Jul 2015 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2015/07/Accessing-local-domain-in-Yosemite</guid>
+                <description>&lt;p&gt;If you have a URL that ends with .local then you can not access it in Yosemite (Yosemite 10.10.3) by default. Run below command to access those URLs.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo discoveryutil mdnsactivedirectory yes&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You need to run above command everytime you re-boot. Not required if you wake up from sleep.&lt;/p&gt;
+
+</description>
+            </item>
+        
+            <item>
+                <title>ORA-01882: timezone region not found</title>
+                <link>http://test.gummalla.in/2015/07/SQLDeveloper-ORA-01882-Yosemite/</link>
+                <pubDate>Sat, 18 Jul 2015 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2015/07/SQLDeveloper-ORA-01882-Yosemite</guid>
+                <description>&lt;p&gt;I was getting this error “ORA-01882: timezone region not found” in SQL Developer. Below is the fix.&lt;/p&gt;
+
+&lt;pre&gt;
+edit below file
+~/.sqldeveloper/4.1.0/product.conf
+Add java VM option as follows
+AddVMOption -Duser.timezone=&quot;+05.30&quot;
+&lt;/pre&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Goodbye Ubuntu. Welcome Yosemite !</title>
+                <link>http://test.gummalla.in/2015/07/Goodbye-Ubuntu-Welcome-Yosemite/</link>
+                <pubDate>Sun, 12 Jul 2015 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2015/07/Goodbye-Ubuntu-Welcome-Yosemite</guid>
+                <description>&lt;p&gt;I got my new&lt;code&gt;*&lt;/code&gt; &lt;a href=&quot;http://www.apple.com/in/macbook-pro/specs-retina/&quot;&gt;Macbook Pro&lt;/a&gt; with Force Touch trackpad yesterday at &lt;a href=&quot;http://aptronixindia.com&quot;&gt;Aptronix&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;*&lt;/code&gt; Terms &amp;amp; conditions: You must buy an Ice Cream for your daughter before you buy a mac for yourself.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/692/21216091288_a8f399b0d2_z.jpg&quot; data-lightbox=&quot;/2015/07/Goodbye-Ubuntu-Welcome-Yosemite/set-1&quot; data-title=&quot;Macbook Pro Shopping&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/692/21216091288_a8f399b0d2_z.jpg&quot; alt=&quot;Macbook Pro Shopping&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm1.staticflickr.com/779/20782858223_3236005032_z.jpg&quot; data-lightbox=&quot;/2015/07/Goodbye-Ubuntu-Welcome-Yosemite/set-1&quot; data-title=&quot;Macbook Pro Shopping&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/779/20782858223_3236005032_z.jpg&quot; alt=&quot;Macbook Pro Shopping&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5645/21403943575_348ed464ab_z.jpg&quot; data-lightbox=&quot;/2015/07/Goodbye-Ubuntu-Welcome-Yosemite/set-1&quot; data-title=&quot;Macbook Pro Shopping&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5645/21403943575_348ed464ab_z.jpg&quot; alt=&quot;Macbook Pro Shopping&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm1.staticflickr.com/573/21216089088_e2a370d0ec_z.jpg&quot; data-lightbox=&quot;/2015/07/Goodbye-Ubuntu-Welcome-Yosemite/set-1&quot; data-title=&quot;Macbook Pro Shopping&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/573/21216089088_e2a370d0ec_z.jpg&quot; alt=&quot;Macbook Pro Shopping&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5775/21393061252_6c2d34b497_z.jpg&quot; data-lightbox=&quot;/2015/07/Goodbye-Ubuntu-Welcome-Yosemite/set-1&quot; data-title=&quot;Macbook Pro Shopping&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5775/21393061252_6c2d34b497_z.jpg&quot; alt=&quot;Macbook Pro Shopping&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Say Goodbye to Ubuntu and  Welcome to Yosemite !. 
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5775/21393061252_6c2d34b497_z.jpg&quot; data-lightbox=&quot;/2015/07/Goodbye-Ubuntu-Welcome-Yosemite/set-1&quot; data-title=&quot;Macbook Pro Shopping&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5775/21393061252_6c2d34b497_z.jpg&quot; alt=&quot;Macbook Pro Shopping&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5775/21393061252_6c2d34b497_z.jpg&quot; data-lightbox=&quot;/2015/07/Goodbye-Ubuntu-Welcome-Yosemite/set-1&quot; data-title=&quot;Macbook Pro Shopping&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5775/21393061252_6c2d34b497_z.jpg&quot; alt=&quot;Macbook Pro Shopping&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Honda Activa 3G !</title>
+                <link>http://test.gummalla.in/2015/06/Honda-Activa-3G/</link>
+                <pubDate>Sat, 27 Jun 2015 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2015/06/Honda-Activa-3G</guid>
+                <description>&lt;p&gt;My new bike. Honda Activa 3G. I did puja today at Tadbund Anjaneyaswami Temple. I come to know that Temple offers free food on every Tuesday and Saturday. I tasted the food and is OK. Annadatha Sukhibava!&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5715/20904766339_3c6372f16e_k.jpg&quot; data-lightbox=&quot;/2015/06/Honda-Activa-3G/set-1&quot; data-title=&quot;Honda Activa 3G&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5715/20904766339_3c6372f16e_k.jpg&quot; alt=&quot;Honda Activa 3G&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>My Mothers Muktinath Trip</title>
+                <link>http://test.gummalla.in/2015/05/My-Mothers-Muktinath-Trip/</link>
+                <pubDate>Sat, 02 May 2015 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2015/05/My-Mothers-Muktinath-Trip</guid>
+                <description>&lt;p&gt;My Mother went to Muktinath - a Pilgrimage Trip. It’s located in Nepal. Trip includes Pashupathinath Temple and other tourism places in Nepal. She took lot of snaps on her new iPhone. I set those snaps as home screen and lock screens as they are damn good for those home screens. Below are the few snaps:&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5773/20903212658_3bf7623439_z.jpg&quot; data-lightbox=&quot;/2015/05/My-Mothers-Muktinath-Trip/set-1&quot; data-title=&quot;Mukthinath Yatra&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5773/20903212658_3bf7623439_z.jpg&quot; alt=&quot;Mukthinath Yatra Snaps&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5617/20468603474_ff5de5775c_z.jpg&quot; data-lightbox=&quot;/2015/05/My-Mothers-Muktinath-Trip/set-1&quot; data-title=&quot;Mukthinath Yatra&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5617/20468603474_ff5de5775c_z.jpg&quot; alt=&quot;Mukthinath Yatra Snaps&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm1.staticflickr.com/665/20468494064_67ddc4ec75_z.jpg&quot; data-lightbox=&quot;/2015/05/My-Mothers-Muktinath-Trip/set-1&quot; data-title=&quot;Mukthinath Yatra&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/665/20468494064_67ddc4ec75_z.jpg&quot; alt=&quot;Mukthinath Yatra Snaps&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm1.staticflickr.com/642/20468617884_d3da1a204f_z.jpg&quot; data-lightbox=&quot;/2015/05/My-Mothers-Muktinath-Trip/set-1&quot; data-title=&quot;Mukthinath Yatra&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/642/20468617884_d3da1a204f_z.jpg&quot; alt=&quot;Mukthinath Yatra Snaps&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Below historical structures no longer exists after &lt;a href=&quot;https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake&quot;&gt;recent Nepal earthquake&lt;/a&gt;. These pictures were taken by my mom in her phone just a week days before the earthquake.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5680/20468836714_33fd23fcec_z.jpg&quot; data-lightbox=&quot;/2015/05/My-Mothers-Muktinath-Trip/set-1&quot; data-title=&quot;Mukthinath Yatra&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5680/20468836714_33fd23fcec_z.jpg&quot; alt=&quot;Mukthinath Yatra Snaps&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5836/20470372623_6b94d9f8c9_z.jpg&quot; data-lightbox=&quot;/2015/05/My-Mothers-Muktinath-Trip/set-1&quot; data-title=&quot;Mukthinath Yatra&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5836/20470372623_6b94d9f8c9_z.jpg&quot; alt=&quot;Mukthinath Yatra Snaps&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;My Mom.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5810/21099048681_b1e0c8e757_z.jpg&quot; data-lightbox=&quot;/2015/05/My-Mothers-Muktinath-Trip/set-1&quot; data-title=&quot;Mukthinath Yatra&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5810/21099048681_b1e0c8e757_z.jpg&quot; alt=&quot;Mukthinath Yatra Snaps&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>My Son's Puttentukalu</title>
+                <link>http://test.gummalla.in/2015/03/My-Son-Puttentukalu/</link>
+                <pubDate>Sat, 14 Mar 2015 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2015/03/My-Son-Puttentukalu</guid>
+                <description>&lt;p&gt;Puttentukalu Thiyyadam in Telugu. &lt;a href=&quot;https://en.wikipedia.org/wiki/Chudakarana&quot;&gt;Chudakarana&lt;/a&gt; in Sanskrit. It’s the &lt;a href=&quot;https://en.wikipedia.org/wiki/First_haircut&quot;&gt;First Haircut&lt;/a&gt; function. We went to &lt;a href=&quot;http://www.tirumala.org&quot;&gt;Tirupathi&lt;/a&gt; for this function of my Son last week end Mar 7th and 8th.&lt;/p&gt;
+
+&lt;p&gt;My Son before and after the hair cut.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/697/21376257096_4fc9c9e95a_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/697/21376257096_4fc9c9e95a_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5708/21391856592_1894ee65bf_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5708/21391856592_1894ee65bf_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;At Tirumala. Heading to Guest House.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5697/21215624379_ecbf40f5f0_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5697/21215624379_ecbf40f5f0_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5770/21376309796_6bb019b75a_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5770/21376309796_6bb019b75a_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Goddess in the Room inside Guest House. Mena Maamaku Kotha Battalu ;)&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5776/21214511550_aa3598bd7e_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5776/21214511550_aa3598bd7e_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/632/21410943071_42cf723d68_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/632/21410943071_42cf723d68_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5769/21402562165_8d3356e089_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5769/21402562165_8d3356e089_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Just before the first hair cut. First haircut by Mena Maama Santosh. First haircut is done by maternal uncle by making hair pass thru a golden ring.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5642/21376337726_65cc58aaab_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5642/21376337726_65cc58aaab_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/641/21214734988_a6a085677f_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/641/21214734988_a6a085677f_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/581/21214737788_2d8227cdfd_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/581/21214737788_2d8227cdfd_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/610/21376357136_05004658df_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/610/21376357136_05004658df_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/705/21214505030_0c4551f76f_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/705/21214505030_0c4551f76f_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Beautiful clouds in early morning from the Guest House Balcony.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5769/21214759368_c3985d03d1_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5769/21214759368_c3985d03d1_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/619/21214516720_d6e043e2ab_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/619/21214516720_d6e043e2ab_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/581/21215696319_3cc89afccd_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/581/21215696319_3cc89afccd_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5737/21402611685_8b1a335e3b_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5737/21402611685_8b1a335e3b_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/576/21411002481_06b3e66de9_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/576/21411002481_06b3e66de9_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/683/21214772798_7f54e98c58_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/683/21214772798_7f54e98c58_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Family snaps from the Balcony. You can see even Tirupathi City (not Tirumala) down the hills from one of the photos.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5725/21411013261_b8070f1976_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5725/21411013261_b8070f1976_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/566/20781544983_0786a37025_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/566/20781544983_0786a37025_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5622/20781548493_ff81c1cafb_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5622/20781548493_ff81c1cafb_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/618/21214798538_659a4b5606_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/618/21214798538_659a4b5606_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5690/21214801728_2ded32221c_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5690/21214801728_2ded32221c_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5711/21214561720_5ce49e234d_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5711/21214561720_5ce49e234d_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm1.staticflickr.com/585/21411050391_88a394b399_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/585/21411050391_88a394b399_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm1.staticflickr.com/636/21391787062_95879355f2_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/636/21391787062_95879355f2_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5639/21214569690_7f776fa4e6_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5639/21214569690_7f776fa4e6_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5703/21391785542_3aa97082b9_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5703/21391785542_3aa97082b9_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm1.staticflickr.com/597/21214829638_ca2576ed86_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/597/21214829638_ca2576ed86_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/646/21391809312_855fc9fb09_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/646/21391809312_855fc9fb09_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5832/21214623320_24076e49d5_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5832/21214623320_24076e49d5_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/593/21376484366_4343aa8eb2_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/593/21376484366_4343aa8eb2_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/743/20781672593_3a6a412559_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/743/20781672593_3a6a412559_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5718/21214883108_00eb5529ca_z.jpg&quot; data-lightbox=&quot;/2015/03/My-Son-Puttentukalu/set-1&quot; data-title=&quot;My Son&#39;s Puttentukalu&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5718/21214883108_00eb5529ca_z.jpg&quot; alt=&quot;My Son&#39;s Puttentukalu&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Sudoku Puzzle</title>
+                <link>http://test.gummalla.in/2014/12/Sudoku-Puzzle/</link>
+                <pubDate>Sat, 27 Dec 2014 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2014/12/Sudoku-Puzzle</guid>
+                <description>&lt;p&gt;Re-blogged from backups of 2006 for obvious reason - not to loose it again.&lt;/p&gt;
+
+&lt;p&gt;Once there was a competition held at Oracle IDC. It’s about solving Sudoku puzzle. Whoever solves it first will be the winner. I learned about that game at that time only.&lt;/p&gt;
+
+&lt;p&gt;Solved myself some (Easy) puzzles which took more time than expected.
+Hmmm, how should I win then? At least first top 3 positions ? I think there is no way that I can do it.&lt;/p&gt;
+
+&lt;p&gt;Then a very nice idea (Should I call it like this ;)) came into this Einstein’s brain. Why dont I bluff them by writing a program? Here is it what I wrote then.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;script src=&quot;https://gist.github.com/ugummall/f9e203ac2b1fe5c55660.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;But Ooopch… No use of it. They held the competition in cafetaria. Not online. I didnt participate at all just to claim If I had participated, I would have stood first position.&lt;/p&gt;
+
+&lt;p&gt;What’s the complexity of this algo? Check out yourself. It wont be that much complexity as it seems programmatically. I mean, as the game (problem) itself cuts some paths so fast and lead to solution space because of implicit heauristics. (Also as it’s for just 8 by 8 grid).&lt;/p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Beautiful Campus !</title>
+                <link>http://test.gummalla.in/2014/11/Beautiful-IIIT-Campus/</link>
+                <pubDate>Sun, 02 Nov 2014 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2014/11/Beautiful-IIIT-Campus</guid>
+                <description>&lt;p&gt;While wasting sometime on &lt;a href=&quot;http://www.quora.com&quot;&gt;Quora&lt;/a&gt;, I happened to found this beautiful photo of &lt;a href=&quot;http://www.iiit.ac.in&quot;&gt;my IIIT campus&lt;/a&gt;. Yes, sometimes Quora is not waste of time ;)&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://farm1.staticflickr.com/748/21131215818_484572748e_z.jpg&quot; data-lightbox=&quot;/2014/11/Beautiful-IIIT-Campus/set-1&quot; data-title=&quot;IIIT Campus&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/748/21131215818_484572748e_z.jpg&quot; alt=&quot;IIIT Campus&quot; class=&quot;lb2images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>It's called Passive-Recursion</title>
+                <link>http://test.gummalla.in/2014/09/Its-called-passive-recursion/</link>
+                <pubDate>Sat, 27 Sep 2014 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2014/09/Its-called-passive-recursion</guid>
+                <description>&lt;p&gt;I referred some recursion in my previous post &lt;a href=&quot;http://uday.gummalla.in/2014/09/Securing-my-old-code/&quot;&gt;Securing my old code&lt;/a&gt;. Actually, it’s called passive recursion. A calls B and in turn B calls A and continues till the problem is solved and it breaks with some condition. A small snippet is better in explanation. Below is the one:&lt;/p&gt;
+
+&lt;p&gt;&lt;script src=&quot;https://gist.github.com/ugummall/83ef9bd5e919bc527505.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+</description>
+            </item>
+        
+            <item>
+                <title>Securing my old code</title>
+                <link>http://test.gummalla.in/2014/09/Securing-my-old-code/</link>
+                <pubDate>Sun, 14 Sep 2014 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2014/09/Securing-my-old-code</guid>
+                <description>&lt;p&gt;I felt I am fortunate enough to find my very old code. I lost that computer but I put up that code in HTML format in a very old blog. I am able to hack that today and got my code back.&lt;/p&gt;
+
+&lt;p&gt;I wrote several games (not new/innovative but recoded in my passionate language C). I missed few of them. Here is the list.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ugummall/oldgames/tree/master/Igataxx&quot;&gt;Igataxx&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When I installed RedHat Linux (some version like 1.6 or so) I found &lt;!--more--&gt; a game there called Gataxx.
+I rewrite that game in C language using Gimp Took Kit (gtk+) on that linux box.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ugummall/oldgames/tree/master/Freecell&quot;&gt;Freecell&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the standard Freecell game that you find in Windows. Written in Turbo C IDE. I bet, you can not differentiate if it’s my game or the standard game that comes with Windows OS. Of course, it always offers the same problem again and again.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ugummall/oldgames/tree/master/Mine-Sweeper&quot;&gt;Minesweeper&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Same. Written in Turbo C IDE in DOS Operating System. Replicated the standard minsweeper game that comes with Windows Operating System. Of course the same problem is offered again and again. 
+While writing this I faced a strange problem (to me it was strange) of how to blast all sorrounding cells when you click on some lucky cell. While writing code for that part I ended up an active (or passive I dont remember now what it is called) recursive. That is function abc() calls pqr() and inside pqr() you call abc()….&lt;/p&gt;
+
+&lt;p&gt;Not sure if any of the above code works as it is in todays systems… If it works, please send me screenshot :)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;vbcn messenger.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is something like yahoo messenger that works in LAN. Users have to login into their machines using their users. User means the UNIX user. Then they can find other users in the same LAN and can chat the way you chat in Yahoo Messenger. Written using BSD Sockets and ncurses library. I wrote this when I was doing Networks lab (Socket Programming was a lab course at that time). Unfortunately I couldnt find the source code for this…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Other games like “Spritor” etc..&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I may loose whatever I have now. So I better put up in github. Here is the &lt;a href=&quot;https://github.com/ugummall/oldgames&quot;&gt;github repo for old games&lt;/a&gt;&lt;/p&gt;
+
+</description>
+            </item>
+        
+            <item>
+                <title>Hello !</title>
+                <link>http://test.gummalla.in/2014/09/Hello/</link>
+                <pubDate>Sat, 13 Sep 2014 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2014/09/Hello</guid>
+                <description>&lt;p&gt;Welcome to my website. I started blogging in 2005 and stopped it in 2006. Well, that was in Oracle &lt;a href=&quot;https://blogs.oracle.com/uday/&quot;&gt;https://blogs.oracle.com/uday/&lt;/a&gt; and it’s gone. Now, this is my own domain.&lt;/p&gt;
+
+&lt;p&gt;Welcome !&lt;/p&gt;
+</description>
+            </item>
+        
+
+    </channel>
+</rss>

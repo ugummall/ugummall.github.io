@@ -1,1 +1,0 @@
-# ugummall.github.io
