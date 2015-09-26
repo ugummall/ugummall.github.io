@@ -1,0 +1,39 @@
+url: "http://test.gummalla.in"
+title: Uday Gummalla
+description: "iMy name is Uday Gummalla. I'm a Software Engineer at Tribus Point and based out of Hyderabad, India. This site is like my public diary/notes. Mix of tech and life notes. You should get more info here than in my social networking sites."
+language: en-us
+
+author: Uday Gummalla
+email: uday.gummalla@gmail.com
+
+permalink: /:year/:month/:title/
+
+paginate: 100
+paginate_path: "page:num"
+excerpt_separator: <!--more-->
+
+gems:
+  - jekyll-sitemap
+  - jekyll-mentions
+
+exclude:
+  - CNAME
+  - Gemfile
+  - LICENSE.txt
+  - README.md
+
+google:
+  analytics:
+    profile: "UA-67719504-1"
+
+github:
+  username: ugummall
+
+disqus:
+  shortname: uday-gummalla-com
+
+twitter:
+  username: ugummall
+
+linkedin:
+  username: udaykiranreddy
