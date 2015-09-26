@@ -1,6 +1,6 @@
-# main.gummalla.in
+# uday.gummalla.com
 
-This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted on [GitHub Pages](http://pages.github.com/) for [main.gummalla.in](http://main.gummalla.in). Feel free to browse the source, fork this repository, or [ask me questions](http://twitter.com/udaykiranreddy).
+This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted on [GitHub Pages](http://pages.github.com/) for [uday.gummalla.com](http://uday.gummalla.com). Feel free to browse the source, fork this repository, or [ask me questions](http://twitter.com/ugummall).
 
 ## Disclaimer
 
