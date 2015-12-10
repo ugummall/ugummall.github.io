@@ -6,9 +6,41 @@
         <atom:link href="http://test.gummalla.in/rss.xml" rel="self" type="application/rss+xml" />
         <description>My name is Uday Gummalla. I'm a Software Engineer at Tribus Point and based out of Hyderabad, India. This site is like my public diary/notes. Mix of tech and life notes. You should get more info here than in my social networking sites.</description>
         <language>en-us</language>
-        <pubDate>Fri, 02 Oct 2015 16:10:24 +0530</pubDate>
-        <lastBuildDate>Fri, 02 Oct 2015 16:10:24 +0530</lastBuildDate>
+        <pubDate>Thu, 10 Dec 2015 12:34:07 +0530</pubDate>
+        <lastBuildDate>Thu, 10 Dec 2015 12:34:07 +0530</lastBuildDate>
 
+        
+            <item>
+                <title>Team Dinner !</title>
+                <link>http://test.gummalla.in/2015/12/Team-Dinner/</link>
+                <pubDate>Thu, 10 Dec 2015 00:00:00 +0530</pubDate>
+                <author>uday.gummalla@gmail.com (Uday Gummalla)</author>
+                <guid>http://test.gummalla.in/2015/12/Team-Dinner</guid>
+                <description>&lt;p&gt;Team Dinner at &lt;a href=&quot;https://www.zomato.com/bangalore/abs-absolute-barbecues-btm&quot;&gt;AB’s Absolute Barbecues&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://farm6.staticflickr.com/5749/23564271111_8ce4252155_z.jpg&quot; data-lightbox=&quot;/2015/12/Team-Dinner/set-1&quot; data-title=&quot;Team Dinner&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5749/23564271111_8ce4252155_z.jpg&quot; alt=&quot;Team Dinner&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5766/23564256321_9239e0948a_z.jpg&quot; data-lightbox=&quot;/2015/12/Team-Dinner/set-1&quot; data-title=&quot;Team Dinner&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5766/23564256321_9239e0948a_z.jpg&quot; alt=&quot;Team Dinner&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;!--more--&gt;
+
+&lt;a href=&quot;https://farm1.staticflickr.com/605/23620610016_611b382526_z.jpg&quot; data-lightbox=&quot;/2015/12/Team-Dinner/set-1&quot; data-title=&quot;Team Dinner&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/605/23620610016_611b382526_z.jpg&quot; alt=&quot;Team Dinner&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5825/23564282121_3ca405e1b7_z.jpg&quot; data-lightbox=&quot;/2015/12/Team-Dinner/set-1&quot; data-title=&quot;Team Dinner&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5825/23564282121_3ca405e1b7_z.jpg&quot; alt=&quot;Team Dinner&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5749/23538145982_536cebdb6c_z.jpg&quot; data-lightbox=&quot;/2015/12/Team-Dinner/set-1&quot; data-title=&quot;Team Dinner&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5749/23538145982_536cebdb6c_z.jpg&quot; alt=&quot;Team Dinner&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5682/23564295791_7c40ab336b_z.jpg&quot; data-lightbox=&quot;/2015/12/Team-Dinner/set-1&quot; data-title=&quot;Team Dinner&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5682/23564295791_7c40ab336b_z.jpg&quot; alt=&quot;Team Dinner&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And here is, Rabbit, Quail, Duck, Emo and SHARK Eater !.&lt;/p&gt;
+&lt;p&gt;
+
+&lt;a href=&quot;https://farm6.staticflickr.com/5721/23278779719_a2a641f7be_z.jpg&quot; data-lightbox=&quot;/2015/12/Team-Dinner/set-1&quot; data-title=&quot;Team Dinner&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5721/23278779719_a2a641f7be_z.jpg&quot; alt=&quot;Team Dinner&quot; class=&quot;lb4images&quot; style=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+</description>
+            </item>
         
             <item>
                 <title>Accessing .local domain sites in Yosemite</title>
