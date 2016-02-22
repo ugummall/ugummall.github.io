@@ -3,7 +3,7 @@ layout: post
 title: "Hunter Road 95 Batch !"
 ---
 
-All of a sudden, we met after a long time on Jan 10, 2016 at [Osmania Univ Arts College](http://www.osmania.ac.in/ArtsCollege/).
+All of a sudden, we met after a long time (21 years ?) on Jan 10, 2016 at [Osmania Univ Arts College](http://www.osmania.ac.in/ArtsCollege/).
 
 <p>
 
