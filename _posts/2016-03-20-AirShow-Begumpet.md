@@ -17,4 +17,4 @@ I captured few shots there. Thanks mom for lending your phone to me for the day 
 {% youtube Zq8AbsTNpsk %}
 </p>
 
-`Warning:` As usual movies doesnt resemble trailers ;)
+`Warning:` As usual movies do not resemble trailers ;)
