@@ -3,7 +3,7 @@ layout: post
 title: "@ Air Show - Begumpet, Hyderabad"
 ---
 
-<p>Kids wanna see flights. Disappointed that many flights left from Show already. Well, 10min air show is OK.
+<p>Kids wanna see flights and the show. Disappointed that many flights left from Show already. Well, 20min air show is OK.
 I captured few shots there. Thanks mom for lending me your phone to capture few shots.
 </p>
 
@@ -14,7 +14,7 @@ I captured few shots there. Thanks mom for lending me your phone to capture few 
 
 @ Air Show - Movie
 <p>
-{% youtube uHN65_GfphM %}
+{% youtube Zq8AbsTNpsk %}
 </p>
 
-`*` As usual, `movies doesnt resemble trailers` ;)
+`Warning:` As usual movies doesnt resemble trailers ;)
