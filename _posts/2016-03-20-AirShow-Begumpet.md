@@ -4,7 +4,7 @@ title: "@ Air Show - Begumpet, Hyderabad"
 ---
 
 <p>Kids wanna see flights and the show. Disappointed that many flights left from Show already. Well, 20min air show is OK.
-I captured few shots there. Thanks mom for lending your phone to me for the day to capture few shots. I envy of your 6s.
+I captured few shots there. 
 </p>
 
 @ Air Show - Trailer 
