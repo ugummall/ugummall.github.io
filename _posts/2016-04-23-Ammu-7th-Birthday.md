@@ -17,13 +17,25 @@ I started french beard before my daughter born. She never seen me without beard 
 
 <p>
 
-Here is New and Surprising look to my <!--more--> daughter :) 
+She knows me always like this...
 
 </p>
 
 <p>
 
 {% lightbox https://farm2.staticflickr.com/1705/26562417766_358752b5f9_z.jpg --data="set-1" --title="Ammu 7th Birthday" --alt="Ammu 7th Birthday" --class="lb2images" %}
+
+{% lightbox https://farm2.staticflickr.com/1551/26522889841_05a94b75b3_z.jpg --data="set-1" --title="Ammu 7th Birthday" --alt="Ammu 7th Birthday" --class="lb2images" %}
+
+</p>
+
+<p>
+
+Here is New and Surprising look to my <!--more--> daughter :) 
+
+</p>
+
+<p>
 
 {% lightbox https://farm2.staticflickr.com/1479/26562417306_5e95b0809a_z.jpg --data="set-1" --title="Ammu 7th Birthday" --alt="Ammu 7th Birthday" --class="lb1images" %}
 
