@@ -1,35 +1,41 @@
-<html>
-<head>
-</head>
-<body>
+---
+layout: front
+title: 'Uday Gummalla'
+---
 
-<center>
+If you do have any comments on any post and can not comment on the page of the post then you can send me <a href="mailto:uday.gummalla@gmail.com?subject=comment on gummalla.com&body=Hi Uday, I have visited your site uday.gummalla.com">an email</a>
 
+<section class="posts">
+    {% for post in paginator.posts %}
+        {% if post.link %}
+            <h2><a href="{{ post.url }}">&#8682;&nbsp;</a><a href="{{ post.link }}">{{ post.title }}</a></h2>
+        {% else %}
+            <article>
+                <h1>
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h1>
+                <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+                <p>{{ post.excerpt }}</p>
+                <a href="{{ post.url | prepend: site.baseurl }}">Read more »</a>                
+            </article>    
+        {% endif %} 
+    {% endfor %}
 
-<!--
-<iframe 
-    width="95%" 
-    height="95%" 
-    src="https://www.youtube.com/v/EXpa3MOaybU?playlist=EXpa3MOaybU&autoplay=0&rel=0&vq=hd1080" 
-    frameborder="0" 
-    allow="autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen="1"
-</iframe>
--->
+  <nav class="pagination" role="pagination">
 
-<iframe 
-	id="ytplayer" 
-	type="text/html" 
-	width="95%" 
-	height="95%"
-	src="https://www.youtube.com/embed/?listType=playlist&list=EXpa3MOaybU&cc_load_policy=1&modestbranding=1&rel=0&vq=hd1080showinfo=0&color=white" 
-	frameborder="0" 
-    	allow="autoplay; encrypted-media; gyroscope; picture-in-picture" 
-	allowfullscreen
-</iframe>
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a class="newer-posts" href="/" title="Previous Page">&laquo; Newer Posts</a>
+      {% else %}
+        <a class="newer-posts" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
+      {% endif %}
+    {% endif %}
 
-</center>
+    <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span>
 
-</body>
-</html>
+    {% if paginator.next_page %} 
+      <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
+    {% endif %} 
+  </nav>
 
+</section>
